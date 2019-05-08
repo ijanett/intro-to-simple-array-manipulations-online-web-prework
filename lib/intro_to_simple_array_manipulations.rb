@@ -38,6 +38,6 @@ def using_flatten(private_colleges_in_newyork)
   private_colleges_in_newyork.flatten
 end
 
-def using_delete(array, string)
+def using_delete(instructors, string)
   instructors.delete_if {string == "Steven"}
 end
