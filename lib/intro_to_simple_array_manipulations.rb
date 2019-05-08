@@ -41,5 +41,3 @@ end
 def using_delete(array, string)
   instructors.delete_if {string == "Steven"}
 end
-
-def using_delete_at()
